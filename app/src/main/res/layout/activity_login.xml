@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaflo.thescoutingapp.LoginActivity"
+    android:background="#454545">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Username"
+        android:maxLength="10"
+        android:lines="1"
+        android:textColor="#ffffff"
+        android:width="250dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="100dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/Password"
+        android:maxLength="6"
+        android:lines="1"
+        android:textColor="#ffffff"
+        android:width="250dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginLeft="1000dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Username"
+        android:textColor="#ffffff"
+        android:id="@+id/UsernameText"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Password"
+        android:textColor="#ffffff"
+        android:id="@+id/PasswordText"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="1000dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/LoginBtn"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:background="#0000"
+        android:onClick="login"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Team 4 ELEMENT Scouting"
+        android:id="@+id/LoginText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="550dp"
+        android:textColor="#ffffff"
+        android:textSize="45dp"/>
+
+    <ImageView
+        android:layout_width="650dp"
+        android:layout_height="650dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"
+        android:src="@drawable/team4newshadow"
+        android:layout_alignBottom="@+id/Username" />
+
+</RelativeLayout>

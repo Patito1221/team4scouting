@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaflo.thescoutingapp.MainActivity"
+    android:background="#454545">
+
+
+    <Button
+        android:text="Scout a Match"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="332.5dp"
+        android:id="@+id/ScoutaMatchBtn" />
+
+    <Button
+        android:text="Review"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/ReviewBtn"
+        android:layout_marginTop="432.5dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:text="Pit Scout"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/PitScoutBtn"
+        android:layout_marginTop="172.5dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:text="Bluetooth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ScoutaMatchBtn"
+        android:layout_toLeftOf="@+id/ScoutaMatchBtn"
+        android:layout_toStartOf="@+id/ScoutaMatchBtn"
+        android:layout_marginTop="229dp"
+        android:id="@+id/Bluetooth" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Make Discoverable"
+        android:id="@+id/DiscoverableBtn"/>
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/BluetoothDevices" />
+
+</RelativeLayout>

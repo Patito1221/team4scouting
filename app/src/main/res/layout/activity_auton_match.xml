@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/activity_auton_match"
+    android:background="#454545">
+
+    <TextView
+        android:text="Autonomous Period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/AutonTitle"
+        android:textColor="#ffffff"
+        />
+
+    <CheckBox
+        android:text="Reaches Baseline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:id="@+id/ReachesBaselineCheckBox"
+        android:textColor="#4eb0e3"
+        android:buttonTint="#ffffff"/>
+
+    <CheckBox
+        android:text="Shoots a Lot High"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        android:id="@+id/ShootsaLotHighCheckBox"
+        android:buttonTint="#ffffff"
+        android:textColor="#4eb0e3"/>
+
+    <CheckBox
+        android:text="Shoots a Little High"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="205dp"
+        android:id="@+id/ShootsaLittleHighCheckBox"
+        android:textColor="#4eb0e3"
+        android:buttonTint="#ffffff"/>
+
+    <CheckBox
+        android:text="Shoots a Lot Low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="245dp"
+        android:id="@+id/ShootsaLotLowCheckBox"
+        android:textColor="#4eb0e3"
+        android:buttonTint="#ffffff"/>
+
+    <CheckBox
+        android:text="Shoots a Little Low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="285dp"
+        android:id="@+id/ShootsaLittleLowCheckBox"
+        android:textColor="#4eb0e3"
+        android:buttonTint="#ffffff"/>
+
+    <TextView
+        android:text="Gears Placed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:id="@+id/GearsPlacedTitleA"
+        android:textColor="#ffffff"/>
+
+    <CheckBox
+        android:text="Places 1 Gear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="390dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Places1GearCheckBox"
+        android:textColor="#4eb0e3"
+        android:buttonTint="#ffffff"/>
+
+    <CheckBox
+        android:text="Places 2 Gears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/Places2GearsCheckBox"
+        android:textColor="#4eb0e3"
+        android:buttonTint="#ffffff"/>
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/SubmitBtnA" />
+
+    <TextView
+        android:text="Variable Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TeamNameAuton"
+        android:textSize="40dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="42dp"/>
+
+    <TextView
+        android:text="Variable Team"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="102dp"
+        android:id="@+id/MatchNumberAuton"
+        android:textSize="40dp" />
+
+    <TextView
+        android:text="Fuel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FuelTitleA"
+        android:layout_alignBaseline="@+id/MatchNumberAuton"
+        android:layout_alignBottom="@+id/MatchNumberAuton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"/>
+
+</RelativeLayout>

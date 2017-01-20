@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_team_review"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaflo.thescoutingapp.TeamReview">
+
+    <TextView
+        android:text="Team Number - Team Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/TeamNumberTeamNameTitle"
+        android:textSize="50dp"/>
+
+    <TextView
+        android:text="Review Matches"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="150dp"
+        android:id="@+id/ReviewMatchesTitle"
+        android:textSize="30dp"/>
+
+    <Button
+        android:text="Match 1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="225dp"
+        android:id="@+id/Match1Btn" />
+
+    <Button
+        android:text="Match 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="225dp"
+        android:id="@+id/Match2Btn" />
+
+    <Button
+        android:text="Match 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/Match3Btn" />
+
+    <Button
+        android:text="Match 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/Match4Btn" />
+
+    <Button
+        android:text="Match 5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="375dp"
+        android:id="@+id/Match5Btn" />
+
+    <Button
+        android:text="Match 6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="375dp"
+        android:id="@+id/Match6Btn" />
+
+    <Button
+        android:text="Match 7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="450dp"
+        android:id="@+id/Match7Btn" />
+
+    <Button
+        android:text="Match 8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="450dp"
+        android:id="@+id/Match8Btn" />
+
+    <TextView
+        android:text="Running Totals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:id="@+id/RunningTotalsTitle"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:text="High Goal Cycles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp"
+        android:id="@+id/HighGoalCyclesTitleC" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="255dp"
+        android:id="@+id/HGCCounter" />
+
+    <TextView
+        android:text="Low Goal Cycles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:id="@+id/LowGoalCyclesTitleC" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="330dp"
+        android:id="@+id/LGCCounter" />
+
+    <TextView
+        android:text="Gears Placed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="375dp"
+        android:id="@+id/GearsPlacedTitleC" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="405dp"
+        android:id="@+id/GCounter" />
+
+    <TextView
+        android:text="Climbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:id="@+id/ClimbsTitleC" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="485dp"
+        android:id="@+id/CCounter" />
+
+    <TextView
+        android:text="Averages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/AveragesTitle"
+        android:textSize="30dp"
+        android:layout_marginLeft="970dp"
+        android:layout_marginTop="150dp" />
+
+    <TextView
+        android:text="High Goal Cycles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="980dp"
+        android:layout_marginTop="225dp"
+        android:id="@+id/HighGoalCyclesTitleA" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1025dp"
+        android:layout_marginTop="255dp"
+        android:id="@+id/HGCAverage" />
+
+    <TextView
+        android:text="Low Goal Cycles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="980dp"
+        android:layout_marginTop="300dp"
+        android:id="@+id/LowGoalCyclesTitleA" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1025dp"
+        android:layout_marginTop="330dp"
+        android:id="@+id/LGCAverage" />
+
+    <TextView
+        android:text="Gears Placed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="988dp"
+        android:layout_marginTop="375dp"
+        android:id="@+id/GearsPlacedTitleA" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1025dp"
+        android:layout_marginTop="405dp"
+        android:id="@+id/Gaverage" />
+
+    <TextView
+        android:text="Climbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1008dp"
+        android:layout_marginTop="450dp"
+        android:id="@+id/ClimbsTitleA" />
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1025dp"
+        android:layout_marginTop="480dp"
+        android:id="@+id/CAverage" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DriveBaseTitleR"
+        android:layout_marginTop="587dp"
+        android:layout_marginLeft="200dp"
+        android:text="DriveBase"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/DriveBaseR"
+        android:layout_marginTop="607dp"
+        android:layout_marginLeft="198dp"
+        android:text="Holonomic"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NumberWheelsTitleR"
+        android:layout_marginTop="587dp"
+        android:layout_marginLeft="300dp"
+        android:text="Number of Wheels"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/NumberWheelsR"
+        android:layout_marginTop="607dp"
+        android:layout_marginLeft="350dp"
+        android:text="0"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GearsCheckBoxR"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="425dp"
+        android:text="Gears"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HighGoalCheckBoxR"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="505dp"
+        android:text="High Goals"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LowGoalCheckBoxR"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="615dp"
+        android:text="Low Goals"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BallsHeldTitleR"
+        android:layout_marginTop="587dp"
+        android:layout_marginLeft="735dp"
+        android:text="Balls Held"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/BallsHeldR"
+        android:layout_marginTop="607dp"
+        android:layout_marginLeft="763dp"
+        android:text="0"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/RopeAbilityR"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="825dp"
+        android:text="Climbs Rope"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ScoutsR"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="950dp"
+        android:text="Scouts"/>
+
+
+</RelativeLayout>

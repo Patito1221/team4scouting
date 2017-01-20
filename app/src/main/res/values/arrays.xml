@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="TeamsSanDiego">
+    <item>Select Team...</item>
+    <item>Team 4 ELEMENT - 4</item>
+    <item>399</item>
+    <item>812</item>
+    <item>968</item>
+    <item>1266</item>
+    <item>1538</item>
+    <item>1572</item>
+    <item>1622</item>
+    <item>1836</item>
+    <item>2102</item>
+    <item>2144</item>
+    <item>2465</item>
+    <item>2485</item>
+    <item>2543</item>
+    <item>2637</item>
+</string-array>
+
+    <string-array name="Team4ELEMENTMatchList">
+        <item>Select Match Number...</item>
+        <item>Team 4 ELEMENT - 4</item>
+        <item>4</item>
+        <item>14</item>
+        <item>23</item>
+        <item>36</item>
+        <item>48</item>
+        <item>51</item>
+        <item>68</item>
+        <item>71</item>
+        <item>73</item>
+    </string-array>
+
+    <string-array name="AmountofBallsShot">
+        <item>Select Amount of Balls Shot In Cycle...</item>
+        <item>A lot</item>
+        <item>A little</item>
+    </string-array>
+
+    <string-array name="MatchNumber">
+        <item>Select Match Number...</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="Drivebases">
+        <item>Select Drivebase...</item>
+        <item>West Coast Drive</item>
+        <item>Omni</item>
+        <item>Mecanum</item>
+        <item>Swerve</item>
+        <item>Butterfly</item>
+        <item>Kiwi</item>
+        <item>Holonomic</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tele_op_match"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaflo.thescoutingapp.TeleOpMatch">
+
+    <TextView
+        android:text="Tele Operated Period"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TeleOpTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:text="High Goal Cycles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HighGoalCyclesTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/VariableHGCycle" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/black_leftpointing_triangle"
+        android:id="@+id/DecreaseHighGoalCycle"
+        android:layout_alignTop="@+id/IncreaseHighGoalCycle"
+        android:layout_alignLeft="@+id/TeleOpTitle"
+        android:layout_alignStart="@+id/TeleOpTitle" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/black_rightpointing_triangle"
+        android:layout_marginTop="95dp"
+        android:layout_marginLeft="685dp"
+        android:id="@+id/IncreaseHighGoalCycle" />
+
+    <Spinner
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:entries="@array/AmountofBallsShot"
+        android:id="@+id/HighGoalAmountDropDown" />
+
+
+    <TextView
+        android:text="Low Goal Cycles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/LowGoalCyclesTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:id="@+id/VariableLGCycle" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/black_leftpointing_triangle"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="575dp"
+        android:id="@+id/DecreaseLowGoalCycle" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/black_rightpointing_triangle"
+        android:layout_marginTop="245dp"
+        android:layout_marginLeft="685dp"
+        android:id="@+id/IncreaseLowGoalCycle" />
+
+    <Spinner
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:entries="@array/AmountofBallsShot"
+        android:id="@+id/LowGoalAmountDropDown" />
+
+    <TextView
+        android:text="Gears Placed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/GearsPlacedTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:text="0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:id="@+id/VariableGearsPlaced" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/black_leftpointing_triangle"
+        android:layout_marginTop="395dp"
+        android:layout_marginLeft="575dp"
+        android:id="@+id/DecreaseGearsBrought" />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        app:srcCompat="@drawable/black_rightpointing_triangle"
+        android:layout_marginTop="395dp"
+        android:layout_marginLeft="685dp"
+        android:id="@+id/IncreaseGearsBrought" />
+
+    <CheckBox
+        android:text="Climbs Rope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="475dp"
+        android:id="@+id/ClimbsRopeCheckBox"/>
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/SubmitBtnT" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TeamNameTeleOp"
+        android:textSize="40dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="42dp"/>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="102dp"
+        android:id="@+id/MatchNumberTeleOp"
+        android:textSize="40dp" />
+
+</RelativeLayout>

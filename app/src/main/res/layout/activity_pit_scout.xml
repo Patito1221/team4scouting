@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pit_scout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jaflo.thescoutingapp.PitScout">
+
+    <TextView
+        android:text="Pit Scout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:id="@+id/PitScoutTitle" />
+
+    <TextView
+        android:text="Drivebase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/DrivebaseTitle" />
+
+    <Spinner
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/Drivebases"
+        android:id="@+id/DrivebasesDropDown"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp" />
+
+    <TextView
+        android:text="Number of Wheels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:id="@+id/NumberofWheelsTitle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/NumberofWheelsField"
+        android:hint="Enter Number of Wheels"
+        android:layout_marginTop="170dp"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="Gears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="240dp"
+        android:id="@+id/GearsCheckBox" />
+
+    <CheckBox
+        android:text="High Goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:id="@+id/HighGoalAbilityCheckBox" />
+
+    <CheckBox
+        android:text="Low Goal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="340dp"
+        android:id="@+id/LowGoalAbilityCheckBox" />
+
+    <TextView
+        android:text="Amount of Balls Held"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:id="@+id/AmountofBallsHeldTitle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/AmountofBallsField"
+        android:hint="Enter Amount of Balls"
+        android:layout_marginTop="430dp"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="Climbs Rope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:id="@+id/ClimbsRopeCheckBoxPS" />
+
+    <CheckBox
+        android:text="Scouts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:id="@+id/ScoutsCheckBox" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/SubmitPS" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="25dp"
+        android:id="@+id/PitSelectionTeamName"
+        android:textSize="40dp"/>
+
+
+
+</RelativeLayout>
